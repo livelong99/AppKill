@@ -1,0 +1,185 @@
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Roboto","Montserrat", sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-rendering: optimizeLegibility;
+    padding: 0 16px;
+  }
+
+  .Sections {
+      width: 100%;
+      position: relative;
+      top:150px;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .Sections div{
+      width: 25%;
+      margin-left: 20px;
+      height:100px;
+      display: inline-block;
+      text-align: center;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 15px;
+      border-color: black;
+      background-color: white;
+  }
+
+  .mid {
+      width: 100%;
+      position: relative;
+      top:120px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .mid div {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      border-radius: 10px;
+      background-color: white;
+      text-align: center;
+      margin: 10px;
+      
+  }
+
+  .mid div.bBox {
+      position: relative;
+      top: 50px;
+      margin-right: 170px ;
+    width:250px;
+    height:250px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .mid div.options {
+      position: relative;
+      width: 30%px;
+      height: 250px;
+      border-radius: 0px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+  }
+
+  .mid div.options div{
+    display: inline-block;
+    margin-top: 10px;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;   
+    width: 90%;
+    height:15%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    border-color: black;
+  }
+  
+
+  .mid div.options div p {
+      margin-top: 10px;
+  }
+
+  .mid div.options div p input {
+      position: relative;
+      right: -60px;
+  }
+
+  .nav {
+      position: absolute;
+      top:10px;
+      margin: auto;
+      width: 100%;
+      font-size: x-large;
+  }
+
+  .nav div.logo {
+      position: absolute;
+      width: 70px;
+      height: 40px;
+      left:10px;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: black;
+      background-color: white;
+      font-size: large;
+      color: black;
+  }
+
+  .nav div.nav2 {
+      position: absolute;
+      height: 60px;
+      right:20px;
+      font-size: large;
+  }
+
+  .nav div.nav2 li {
+      color: black;
+      display: inline-block;
+      width:70px;
+      height: 40px;
+      font-size: large;
+  }
+
+  .nav div.nav2 li.sbtn {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-size: large;
+  }
+
+  .Section1 {
+      position: relative;
+      top: 90px;
+      width:100%;
+      border-radius: 3px;
+      border-width:0.5px ;
+      border-color: black;
+  }
+  .Section1 li{
+      display: inline-block;
+      border-style: solid;
+      padding-top: 12px;
+      top:10px;
+      height: 50px;
+      border-width: 0.5px;
+      width: 25%;
+      margin: -3px;
+      text-align: center;
+  }
+
+  .footer{
+      width:100%;
+      border-radius: 3px;
+      border-width:0.5px ;
+      border-style: solid;
+      border-color: black;
+      position: relative;
+      top:180px;
+      text-align: center;
+  }
+
+
+
